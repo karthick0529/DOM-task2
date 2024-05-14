@@ -36,9 +36,6 @@ var mailInput = input("input", "type", "text", "id", "mail", "name", "mail");
 var locationLabel = label("label", "for", "location", "Location:");
 var locationInput = input("input", "type", "text", "id", "location", "name", "location");
 
- function submitform() {
-    console.log("Form submitted!");
-}
 
 // Append the elements to the document
 document.body.appendChild(firstNameLabel);
@@ -68,6 +65,10 @@ document.body.appendChild(locationLabel);
 document.body.appendChild(break1());
 document.body.appendChild(locationInput);
 document.body.appendChild(break1());
+
+ function submitform() {
+    console.log("Form submitted!");
+}
 
 var button = document.createElement("button");
 button.setAttribute("type", "button"); 
