@@ -72,7 +72,7 @@ document.body.appendChild(break1());
 
 var button = document.createElement("button");
 button.setAttribute("type", "button"); 
-button.setAttribute("onclick", "submitForm()"); 
+button.setAttribute("onclick", "submitform()"); 
 button.textContent = "Submit"; 
 document.body.appendChild(button); 
 
