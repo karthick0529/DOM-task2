@@ -36,7 +36,9 @@ var mailInput = input("input", "type", "text", "id", "mail", "name", "mail");
 var locationLabel = label("label", "for", "location", "Location:");
 var locationInput = input("input", "type", "text", "id", "location", "name", "location");
 
-
+ function submitform() {
+    console.log("Form submitted!");
+}
 
 // Append the elements to the document
 document.body.appendChild(firstNameLabel);
